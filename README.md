@@ -1,6 +1,8 @@
 # Tasks
 Easy to use Android application for planning tasks
 
+![photo_2023-01-30_21-12-44](https://user-images.githubusercontent.com/108462106/215560915-12a184df-facd-4dde-a5bb-fa0d620cc0d3.jpg)
+
 P.S. the application was created for educational puprposes, so it may contain faults.
 
 ### Stack of used technoligies

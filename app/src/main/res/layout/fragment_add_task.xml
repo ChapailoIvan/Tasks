@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?android:colorPrimary">
+
+    <EditText
+        android:id="@+id/title_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/default_margin"
+        android:layout_marginTop="@dimen/default_top_margin"
+        android:autofillHints="@null"
+        android:background="@android:color/transparent"
+        android:ellipsize="start"
+        android:fontFamily="@font/helvetica_bold"
+        android:hint="@string/title"
+        android:inputType="text"
+        android:padding="@dimen/default_padding"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorPrimary"
+        android:textSize="@dimen/title_text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/desc_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="@dimen/default_margin"
+        android:autofillHints="@null"
+        android:background="@android:color/transparent"
+        android:fontFamily="@font/helvetica"
+        android:gravity="top|start"
+        android:hint="@string/add_task_description"
+        android:inputType="textMultiLine"
+        android:lineSpacingExtra="5sp"
+        android:padding="@dimen/default_padding"
+        android:textColor="?android:textColorPrimary"
+        android:textColorHint="?android:textColorPrimary"
+        android:textSize="@dimen/auxiliary_text"
+        app:layout_constraintBottom_toTopOf="@+id/check_button"
+        app:layout_constraintTop_toBottomOf="@+id/title_edittext" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:layout_marginEnd="@dimen/double_default_margin"
+        android:contentDescription="@string/add"
+        android:src="@drawable/ic_check"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

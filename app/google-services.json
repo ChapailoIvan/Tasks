@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "303560191008",
+    "project_id": "tasks-94167",
+    "storage_bucket": "tasks-94167.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:303560191008:android:ea78f21b8817a526cd2045",
+        "android_client_info": {
+          "package_name": "by.chapailo.tasksapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "303560191008-c97q28k02l3qvpt767v07jpijc7ao18q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX59K7d245mVOSgM_FOEznPM2rTHbmzdE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "303560191008-c97q28k02l3qvpt767v07jpijc7ao18q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

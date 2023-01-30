@@ -21,15 +21,14 @@ the middle.
 ### Tutorial 
 
 * To see tasks of specific importance:
-    ** Choose tasks importance to get on the bottom part of screen, where three circles are displayed;
-    
-       In case you want go back to main screen simply click on 'Show all' text on the top of your screen,
+    **Choose tasks importance to get on the bottom part of screen, where three circles are displayed;
+      In case you want go back to main screen simply click on 'Show all' text on the top of your screen,
        where previosly applicaion name was shown;
 
 * To create task: 
-    ** Choose task's importance on the bottom part of screen, where three circles are displayed;
-    ** In the left corner of your screen you will see rounded button with '+' sign inside,
-       click on button to create task of chosen importance;
+    **Choose task's importance on the bottom part of screen, where three circles are displayed;
+      In the left corner of your screen you will see rounded button with '+' sign inside,
+      click on button to create task of chosen importance;
        
 * By default tasks are sorted by importance: the most important are located on the top of list;
 
